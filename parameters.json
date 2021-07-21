@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "apimName": {
+            "value": "apimanagenentsvcARM21july"
+        },
+        "organizationName": {
+            "value": "unthinkable"
+        },
+        "adminEmail": {
+            "value": "mangiri.t@optimusinfo.com"
+        },
+        "tier": {
+            "value": "Basic"
+        },
+        "appInsightsOption": {
+            "value": false
+        },
+        "appInsightsObject": {
+            "value": {
+                "name": "generatedName",
+                "id": "generatedId"
+            }
+        },
+        "capacity": {
+            "value": "1"
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "vnet": {
+            "value": {}
+        },
+        "tripleDES": {
+            "value": true
+        },
+        "http2": {
+            "value": true
+        },
+        "clientTls11": {
+            "value": true
+        },
+        "clientTls10": {
+            "value": true
+        },
+        "clientSsl30": {
+            "value": true
+        },
+        "backendTls11": {
+            "value": true
+        },
+        "backendTls10": {
+            "value": true
+        },
+        "backendSsl30": {
+            "value": true
+        },
+        "tagsByResource": {
+            "value": {
+                "Microsoft.ApiManagement/service": {
+                    "Name": "api"
+                }
+            }
+        }
+    }
+}
